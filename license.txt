@@ -1,19 +1,126 @@
-Copyright © 2026 Alchemy Hub
+# Alchemy Memory Handler
+## Terms of Service
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+**Last updated: January 15, 2024**
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+---
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## 1. Acceptance of Terms
+
+By using Alchemy Memory Handler (the "Software"), you agree to these Terms of Service (the "Terms"). If you do not agree to these Terms, please do not install, access, or use the Software.
+
+---
+
+## 2. License Grant
+
+Alchemy Memory Handler grants you a **non-exclusive, non-transferable license** to use the Software for personal and commercial use, subject to these Terms and all applicable laws and regulations.
+
+This license is:
+- **Personal**: You may not transfer, sublicense, or assign your rights under this license to any third party.
+- **Revocable**: We may terminate this license at any time if you violate these Terms.
+
+---
+
+## 3. Prohibited Uses
+
+You may **not**:
+
+- 🔍 **Reverse engineer**, decompile, disassemble, or attempt to derive the source code of the Software
+- ⚖️ Use the Software for any **illegal purpose** or in violation of any applicable laws
+- 🔑 **Share your license key** with others or use it for unauthorized access
+- 🛠️ **Modify**, adapt, translate, or create derivative works based on the Software
+- 💻 Use the Software to **harm**, disrupt, or gain unauthorized access to other systems, networks, or data
+- 🚫 **Bypass** or circumvent any security measures or access controls in the Software
+- 📦 **Resell**, rent, lease, or distribute the Software without explicit written permission
+
+---
+
+## 4. Limitation of Liability
+
+**THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTY OF ANY KIND.**
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW:
+
+- **No Warranties**: Alchemy Memory Handler makes no representations or warranties about the accuracy, reliability, completeness, or timeliness of the Software
+- **No Liability**: In no event shall Alchemy Memory Handler be liable for any:
+  - Direct, indirect, incidental, special, consequential, or punitive damages
+  - Loss of profits, data, or business interruption
+  - Damages arising from the use or inability to use the Software
+  - Damages resulting from third-party claims, even if advised of the possibility of such damages
+
+---
+
+## 5. Termination
+
+We reserve the right to **suspend or terminate** your access to the Software immediately, without prior notice, if:
+
+- You violate any provision of these Terms
+- You engage in fraudulent, illegal, or unauthorized activities
+- We are required to do so by law
+
+Upon termination:
+- Your license rights will immediately cease
+- You must stop using the Software and delete all copies
+- Certain provisions (Liability, Ownership, etc.) will survive termination
+
+---
+
+## 6. Changes to Terms
+
+We may update these Terms from time to time to reflect changes in the Software, legal requirements, or industry practices.
+
+- **Notification**: We will notify you of material changes via the Software, email, or website notice
+- **Effective Date**: Changes become effective when posted
+- **Acceptance**: Continued use of the Software after changes constitutes your acceptance of the updated Terms
+
+---
+
+## 7. Intellectual Property
+
+All rights, title, and interest in and to the Software, including but not limited to:
+- Source code, object code, algorithms, and architecture
+- Documentation and user interfaces
+- Trademarks, logos, and brand elements
+
+are the exclusive property of Alchemy Hub. This Software is protected by copyright and intellectual property laws.
+
+---
+
+## 8. Data Privacy
+
+By using the Software, you acknowledge that:
+- We may collect **basic usage data** to improve performance and user experience
+- Your **license key and authentication data** are stored locally in your configuration
+- We do **not** collect or store personal data unless explicitly provided by you
+- For more details, please refer to our Privacy Policy
+
+---
+
+## 9. Governing Law
+
+These Terms shall be governed by and construed in accordance with the laws of the jurisdiction where Alchemy Hub is established, without regard to its conflict of law provisions.
+
+---
+
+## 10. Contact Us
+
+If you have any questions, concerns, or requests regarding these Terms:
+
+**📧 Email**: [x2neptune@fbi.engineer](mailto:x2neptune@fbi.engineer)
+
+---
+
+## 11. Entire Agreement
+
+These Terms constitute the entire agreement between you and Alchemy Hub regarding the Software and supersede all prior agreements, communications, and understandings, whether written or oral.
+
+---
+
+## ✅ Acknowledgment
+
+**By using Alchemy Memory Handler, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.**
+
+---
+
+**Alchemy Hub**  
+© 2026 Alchemy Hub. All rights reserved.

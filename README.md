@@ -13,82 +13,74 @@ A comprehensive terminal command system for managing Roblox processes, emulators
 
 ---
 
-## 🚀 General Commands
+## Terminal Commands
 
-| Command | Usage | Description |
-|---------|-------|-------------|
-| `!h` | `!h` | Show help/keys reference |
-| `clear` | `clear` | Clear terminal history |
-| `refresh` | `refresh` | Force refresh the UI |
-| `theme` | `theme` | Cycle to next color theme |
-| `save` | `save` | Save dashboard snapshot to file |
+All commands typed in the in-app terminal (Ctrl+T to focus).
 
-## 🔄 Mode & Auto Commands
+| Command | Description |
+|---------|-------------|
+| `!h` | Show help |
+| `clear` | Clear terminal |
+| `refresh` | Force UI refresh |
+| `theme` | Cycle theme (8 themes) |
+| `auto` | Cycle auto mode (Manual → Roblox → MuMu → LDPlayer → AutoDetect → Adaptive) |
+| `stopauto` | Stop auto mode |
+| `alloc` | Apply memory limits to all targets |
+| `killall` | Kill all Roblox/MuMu/LDPlayer processes |
+| `ws on` | Start WebSocket server (port 1337) |
+| `ws off` | Stop WebSocket server |
+| `vram` | Clear GPU VRAM cache |
+| `save` | Save dashboard snapshot to file |
+| `!bbasync` | Wipe BanAsync associations (registry, cookies, cache) in background |
+| `!cpu <1-8>` | Set CPU cores per Roblox process |
+| `!k <pid>` | Kill a Roblox process by PID |
+| `setinterval <3-30>` | Set auto detect interval in seconds |
+| `shell <cmd>` | Run a shell command and show output |
+| `voltopen` | Open Volt UI |
+| `voltclose` | Close Volt UI |
+| `voltupdate` | Trigger Volt update |
+| `voltstatus` | Show Volt running status & version |
+| `voltversion` | Show Volt version |
+| `voltlogin` | Save Volt login credentials |
+| `voltuser <name>` | Set Volt username |
+| `voltpass <pass>` | Set Volt password |
+| `voltversionpin <ver>` | Pin Volt to a specific version |
 
-| Command | Usage | Description |
-|---------|-------|-------------|
-| `auto` | `auto` | Cycle auto mode (Off → Roblox → MuMu → LDPlayer → AutoDetect → Adaptive) |
-| `stopauto` | `stopauto` | Stop auto mode immediately |
+## WebSocket Commands
 
-## 💾 Memory & Process Commands
+Connect to `ws://localhost:1337`
 
-| Command | Usage | Description |
-|---------|-------|-------------|
-| `alloc` | `alloc` | Apply memory limits to all detected Roblox/emulator processes |
-| `killall` | `killall` | Kill all Roblox, MuMu, and LDPlayer processes |
-| `!k <pid>` | `!k 1234` | Kill a specific Roblox process by PID |
-| `!cpu <cores>` | `!cpu 2` | Set CPU cores per Roblox process (1-8). Use `!cpu` alone to show current value. |
-| `setinterval <sec>` | `setinterval 10` | Set auto-detect interval (3-30 seconds) |
+| Command | Description |
+|---------|-------------|
+| `AUTH:<token>` | Authenticate (must match license token) |
+| `GET_CLIENTS` | List all tracked processes |
+| `GET_STATUS` | Get system status & config |
+| `GET_PROCESS_DETAILS:<PID>` | Get process info |
+| `KILL:<PID>` | Kill process by PID |
+| `KILL_ALL` | Kill all targets |
+| `ALLOCATE` | Apply memory limits |
+| `CLEAR` | Clear system cache |
+| `AUTO_ON` | Enable auto mode |
+| `AUTO_OFF` | Disable auto mode |
+| `SET_INTERVAL:<seconds>` | Set auto detect interval (3-30) |
+| `PING` | Connection test |
+| `EXIT` | Disconnect |
+| `HELP` | Show available commands |
 
-## 🌐 WebSocket Commands
+## Keybinds
 
-| Command | Usage | Description |
-|---------|-------|-------------|
-| `ws on` | `ws on` | Start WebSocket server on port 1337 |
-| `ws off` | `ws off` | Stop WebSocket server |
+| Key | Action |
+|-----|--------|
+| `F1` | Help |
+| `F3` | Save snapshot |
+| `F4` | Cycle theme |
+| `F5` | Cycle auto mode |
+| `F6` | Apply memory limits |
+| `F7` | Toggle WebSocket |
+| `F8` | Stop auto mode |
+| `F11` | Clear VRAM |
+| `Ctrl+T` | Toggle terminal focus |
+| `Tab` | Switch sidebar/terminal focus |
+| `↑/↓` | Navigate sidebar or scroll |
+| `Q` | Quit |
 
-## 🎮 VRAM Command
-
-| Command | Usage | Description |
-|---------|-------|-------------|
-| `vram` | `vram` | Clear GPU VRAM cache |
-
-## ⚡ Volt Commands
-
-| Command | Usage | Description |
-|---------|-------|-------------|
-| `voltopen` | `voltopen` | Launch Volt UI application |
-| `voltclose` | `voltclose` | Close Volt UI process |
-| `voltupdate` | `voltupdate` | Trigger Volt update (close + reopen with delay) |
-| `voltstatus` | `voltstatus` | Show Volt running status and version |
-| `voltversion` | `voltversion` | Show installed Volt version |
-| `voltlogin` | `voltlogin` | Save Volt login credentials to config |
-| `voltuser <user>` | `voltuser myuser` | Set Volt username |
-| `voltpass <pass>` | `voltpass mypass` | Set Volt password |
-| `voltversionpin <ver>` | `voltversionpin v1.2.3` | Pin a specific Volt version |
-
-## 🖥️ Shell Command
-
-| Command | Usage | Description |
-|---------|-------|-------------|
-| `shell <cmd>` | `shell dir` | Execute any Windows cmd.exe command and show output in terminal |
-
----
-
-## 📝 Quick Examples
-
-```bash
-# Start auto-detection mode
-auto
-
-# Set CPU cores for Roblox processes
-!cpu 4
-
-# Kill all processes
-killall
-
-# Launch Volt
-voltopen
-
-# Execute system command
-shell ipconfig
